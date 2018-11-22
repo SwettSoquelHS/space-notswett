@@ -7,7 +7,7 @@ void setup() {
   smooth(8);
 }
 void draw() {
-  background(255);
+  background(255);  
 	//your code here  
   Particle p = new Particle(width/2, height/2);
   p.show();
