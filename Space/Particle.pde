@@ -2,7 +2,7 @@ class Particle {
   
   float x, y;
   
-  Particle(float x_pos, float y_pos){
+  public Particle(float x_pos, float y_pos){
     x = x_pos;
     y = y_pos;
   }
