@@ -1,10 +1,12 @@
 Particle[] spacedust;
 
+OddballParticle odd;
 //your code here
 void setup() {
 	size(600, 400);
   spacedust = new Particle[5];
   smooth(8);
+  odd = new OddballParticle(width/3, height/3);
 }
 
 
@@ -16,5 +18,8 @@ void draw() {
   
   
   JumboParticle jp = new JumboParticle(width/3, height/3);
-  jp.show();
+  jp.show();  
+  
+  odd.move();
+  odd.show();
 }
